@@ -7,4 +7,4 @@ gdp_per_capita.rename(columns={"2015": "GDP per capita"}, inplace=True)
 
 
 
-print(gdp_per_capita["GDP per capita"])
+print(gdp_per_capita[0:5]['Estimates Start After'])
